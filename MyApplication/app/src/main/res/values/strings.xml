@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cordi</string>
+    <string-array name="tipos_de_figuras">
+        <item>Reta</item>
+        <item>Plano</item>
+        <item>Curva</item>
+    </string-array>
+</resources>
