@@ -8,13 +8,13 @@ import android.widget.Spinner;
 
 public class MacroView {
     private String nome;
-    private Float x;
-    private Float y;
+    private String x;
+    private String y;
 
-    public MacroView(String nome, Float x, Float Y){
-        this.nome = nome;
-        this.x = x;
-        this.y = y;
+    public MacroView(){
+        this.nome = "";
+        this.x = "";
+        this.y = "";
     }
     public String getNome() {
         return nome;
@@ -24,19 +24,19 @@ public class MacroView {
         this.nome = nome;
     }
 
-    public Float getX() {
+    public String getX() {
         return x;
     }
 
-    public void setX(Float x) {
+    public void setX(String x) {
         this.x = x;
     }
 
-    public Float getY() {
+    public String getY() {
         return y;
     }
 
-    public void setY(Float y) {
+    public void setY(String y) {
         this.y = y;
     }
 }
